@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Szkoła w Słupcy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo szkoły">
+        </div>
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="nauczyciele.html">Nauczyciele</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="klasy.html">Klasy</a>
+            <a href="hymn.html">Hymn szkoły</a>
+            <a href="https://www.facebook.com" target="_blank" class="facebook-link">Facebook</a>
+        </nav>
+    </header>
+
+    <section id="kontakt">
+        <div class="kontakt-info">
+            <h1>Skontaktuj się z nami!</h1>
+            <div class="dane-kontaktowe">
+                <h2>Dane kontaktowe</h2>
+                <p><strong>Adres:</strong> Szkoła w Słupcy, ul. Przykładowa 1, 62-400 Słupca, Polska</p>
+                <p><strong>Telefon:</strong> +48 123 456 789</p>
+                <p><strong>Email:</strong> kontakt@szkola.pl</p>
+            </div>
+        </div>
+
+        <div class="formularz-kontaktowy">
+            <h2>Formularz kontaktowy</h2>
+            <form action="#" method="POST">
+                <label for="name">Imię i Nazwisko:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Wyślij wiadomość</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Szkoła w Słupcy.</p>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100758.12974322079!2d18.570397274829342!3d52.31484650284847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4704a2d957cfb375%3A0x43126b8f53e9a3d6!2sS%C5%82upca%2C%20Polska!5e0!3m2!1spl!2sus!4v1695766409487!5m2!1spl!2sus"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </footer>
+</body>
+
+</html>

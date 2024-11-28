@@ -1,0 +1,119 @@
+/* Tło całej strony na kolor SlateBlue */
+body {
+    background-color: slateblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sekcja Kontaktowa */
+#kontakt {
+    padding: 40px 20px;
+    background-color: white; /* Tło formularza i danych kontaktowych */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    color: #333; /* Zmiana koloru tekstu, żeby był czytelniejszy na tle */
+}
+
+.kontakt-info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.kontakt-info h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.kontakt-info p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.dane-kontaktowe {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.dane-kontaktowe p {
+    margin-bottom: 10px;
+}
+
+.formularz-kontaktowy {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formularz-kontaktowy h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formularz-kontaktowy form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formularz-kontaktowy label {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.formularz-kontaktowy input,
+.formularz-kontaktowy textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formularz-kontaktowy button {
+    padding: 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formularz-kontaktowy button:hover {
+    background-color: #357ab7;
+}
+
+/* Mapa Google */
+.map-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Stopka */
+footer {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}

@@ -1,0 +1,592 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+
+header {
+    background-color: slateblue;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    width: 120px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+    margin: 0 120px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f0f8ff;
+    text-decoration: underline;
+}
+
+nav .facebook-link {
+    background-color: slateblue;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav .facebook-link:hover {
+    background-color: slateblue;
+}
+
+#hero {
+    background-image: url('mal.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#hero .hero-content {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: slateblue;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: slateblue;
+}
+
+#osiagniecia {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#osiagniecia h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#osiagniecia p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#osiagniecia ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#osiagniecia li {
+    font-size: 18px;
+    margin: 15px 0;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+footer {
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+footer a {
+    color: #f0f8ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.map-container {
+    background-color: slateblue;
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+footer {
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    bottom: 0;
+}
+
+
+
+body {
+    background-color: slateblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#kontakt {
+    padding: 40px 20px;
+    background-color: white; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    color: #333; 
+}
+
+.kontakt-info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.kontakt-info h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.kontakt-info p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.dane-kontaktowe {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.dane-kontaktowe p {
+    margin-bottom: 10px;
+}
+
+.formularz-kontaktowy {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formularz-kontaktowy h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formularz-kontaktowy form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formularz-kontaktowy label {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.formularz-kontaktowy input,
+.formularz-kontaktowy textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formularz-kontaktowy button {
+    padding: 15px;
+    background-color: slateblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formularz-kontaktowy button:hover {
+    background-color: slateblue;
+}
+
+
+.map-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer {
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+body {
+    background-color: slateblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#galeria {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#galeria h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+
+footer {
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+body {
+    background-color: slateblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#klasy {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#klasy h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#klasy p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.klasa {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.klasa h2 {
+    font-size: 28px;
+    color: slateblue;
+    margin-bottom: 10px;
+}
+
+.klasa p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+body {
+    background-color: slateblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#nauczyciele {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#nauczyciele h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#nauczyciele h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    color: slateblue;
+}
+
+#nauczyciele p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.nauczyciel {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nauczyciel h3 {
+    font-size: 24px;
+    color: slateblue;
+    margin-bottom: 10px;
+}
+
+.nauczyciel p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+body {
+    background-color: slateblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#hymn {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#hymn h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#hymn p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#hymn h2 {
+    font-size: 28px;
+    color: slateblue;
+    margin-top: 30px;
+}
+
+#hymn blockquote {
+    font-size: 20px;
+    font-style: italic;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 5px solid slateblue;
+}
+
+audio {
+    margin-top: 20px;
+    width: 80%;
+}
+
+footer {
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
